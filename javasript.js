@@ -86,7 +86,7 @@ form.addEventListener("submit", function (e) {
     // If correct dates were given
     if (datesValid.value) {
         // We grab the data from the github repo
-        fetch("https://github.com/3IN4R/Sunbeams/blob/main/cars.json")
+        fetch("https://3IN4R.github.io/api/cars.json")
         .then(function (data) { // Waiting for the server to respond (promise)
             return data.json();
         })
