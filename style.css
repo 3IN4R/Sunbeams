@@ -175,7 +175,7 @@ a {
 }
 
 .hero-image {
-    background-image: url("../img/banner.jpg");
+    background-image: url("banner.jpg");
   
     /* Set a specific height */
     height: 30rem;
